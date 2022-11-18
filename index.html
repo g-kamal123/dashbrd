@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navigation">
+          <span class="navigation__logo"> <a>Crypto</a></span>
+          <div class="navigation__tools">
+            <div class="navigation__search-container">
+              <div class="navigation__hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <form class="navigation__search">
+                <input type="text" placeholder="search" />
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9 0C13.9706 0 18 4.02944 18 9C18 11.1248 17.2637 13.0776 16.0323 14.6172L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3466 20.0676 18.7794 20.0953 18.3871 19.7903L18.2929 19.7071L14.6172 16.0323C13.0776 17.2637 11.1248 18 9 18C4.02944 18 0 13.9706 0 9C0 4.02944 4.02944 0 9 0ZM9 2C5.13401 2 2 5.13401 2 9C2 12.866 5.13401 16 9 16C12.866 16 16 12.866 16 9C16 5.13401 12.866 2 9 2Z"
+                    fill="#64748B"
+                  />
+                </svg>
+              </form>
+            </div>
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a class="navigation__link">
+                  <img src="images/us-flag.png" />
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link">
+                  <img src="images/heart.png" />
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link">
+                  <img src="images/notification.png" />
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link">
+                  <img src="images/notification.png" />
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link">
+                  <img src="images/chat.png" />
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link">
+                  <img src="images/settings.png" />
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link">
+                  <img src="images/user.png" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <section class="parent-section">
+        <aside class="aside-bar">
+          <div class="main">
+            <h3>Main</h3>
+            <ul class="aside-bar__list main__list">
+              <li class="aside-bar__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M17 11C18.6569 11 20 12.3431 20 14V17C20 18.6569 18.6569 20 17 20H14C12.3431 20 11 18.6569 11 17V14C11 12.3431 12.3431 11 14 11H17ZM6 11C7.65685 11 9 12.3431 9 14V17C9 18.6569 7.65685 20 6 20H3C1.34315 20 0 18.6569 0 17V14C0 12.3431 1.34315 11 3 11H6ZM17 13H14C13.4477 13 13 13.4477 13 14V17C13 17.5523 13.4477 18 14 18H17C17.5523 18 18 17.5523 18 17V14C18 13.4477 17.5523 13 17 13ZM6 13H3C2.44772 13 2 13.4477 2 14V17C2 17.5523 2.44772 18 3 18H6C6.55228 18 7 17.5523 7 17V14C7 13.4477 6.55228 13 6 13ZM6 0C7.65685 0 9 1.34315 9 3V6C9 7.65685 7.65685 9 6 9H3C1.34315 9 0 7.65685 0 6V3C0 1.34315 1.34315 0 3 0H6ZM17 0C18.6569 0 20 1.34315 20 3V6C20 7.65685 18.6569 9 17 9H14C12.3431 9 11 7.65685 11 6V3C11 1.34315 12.3431 0 14 0H17ZM6 2H3C2.44772 2 2 2.44772 2 3V6C2 6.55228 2.44772 7 3 7H6C6.55228 7 7 6.55228 7 6V3C7 2.44772 6.55228 2 6 2ZM17 2H14C13.4477 2 13 2.44772 13 3V6C13 6.55228 13.4477 7 14 7H17C17.5523 7 18 6.55228 18 6V3C18 2.44772 17.5523 2 17 2Z"
+                    fill="#475569"
+                  />
+                </svg>
+                <label class="aside-bar__label text--c-fiord">Dashboard </label>
+                <span class="bg--shamrock aside-bar__badge aside-bar__badge--pd"
+                  >5</span
+                >
+              </li>
+              <li class="aside-bar__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M15 0C15.5523 0 16 0.447715 16 1V2H17C18.6569 2 20 3.34315 20 5V17C20 18.6569 18.6569 20 17 20H3C1.34315 20 0 18.6569 0 17V5C0 3.34315 1.34315 2 3 2H4V1C4 0.447715 4.44772 0 5 0C5.55229 0 6 0.447715 6 1V2H14V1C14 0.447715 14.4477 0 15 0ZM18 10H2V17C2 17.5523 2.44772 18 3 18H17C17.5523 18 18 17.5523 18 17V10ZM15 12C15.5523 12 16 12.4477 16 13V15C16 15.5523 15.5523 16 15 16H13C12.4477 16 12 15.5523 12 15V13C12 12.4477 12.4477 12 13 12H15ZM4 4H3C2.44772 4 2 4.44772 2 5V8H18V5C18 4.44772 17.5523 4 17 4H16V5C16 5.55228 15.5523 6 15 6C14.4477 6 14 5.55228 14 5V4H6V5C6 5.55228 5.55228 6 5 6C4.44772 6 4 5.55228 4 5V4Z"
+                    fill="#475569"
+                  />
+                </svg>
+                <label class="aside-bar__label text--c-fiord">Calender</label>
+              </li>
+              <li class="aside-bar__item">
+                <svg
+                  width="20"
+                  height="16"
+                  viewBox="0 0 20 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M17 0C18.6569 0 20 1.34315 20 3V13C20 14.6569 18.6569 16 17 16H3C1.34315 16 0 14.6569 0 13V3C0 1.34315 1.34315 0 3 0H17ZM18 3.328L10.6585 9.75258C10.3129 10.055 9.81106 10.0802 9.43941 9.82818L9.3415 9.75258L2 3.329V13C2 13.5523 2.44772 14 3 14H17C17.5523 14 18 13.5523 18 13V3.328ZM16.48 2H3.518L10 7.67123L16.48 2Z"
+                    fill="#475569"
+                  />
+                </svg>
+                <label class="aside-bar__label text--c-fiord">Email</label>
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="components">
+            <h3>Components</h3>
+            <ul class="aside-bar__list components__list">
+              <li class="aside-bar__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9 0H11C12.5977 0 13.9037 1.24892 13.9949 2.82373L14 3V4H17C18.6569 4 20 5.34315 20 7V17C20 18.6569 18.6569 20 17 20H3C1.34315 20 0 18.6569 0 17V7C0 5.34315 1.34315 4 3 4H6V3C6 1.40232 7.24892 0.0963391 8.82373 0.00509269L9 0H11H9ZM18 14H2V17C2 17.5523 2.44772 18 3 18H17C17.5523 18 18 17.5523 18 17V14ZM17 6H3C2.44772 6 2 6.44772 2 7V12H18V7C18 6.44772 17.5523 6 17 6ZM11 2H9C8.48716 2 8.06449 2.38604 8.00673 2.88338L8 3V4H12V3C12 2.48716 11.614 2.06449 11.1166 2.00673L11 2Z"
+                    fill="#475569"
+                  />
+                </svg>
+
+                <label class="aside-bar__label text--c-fiord">Ui Elements</label>
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+              <li class="aside-bar__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M17 0C18.6569 0 20 1.34315 20 3V17C20 18.6569 18.6569 20 17 20H3C1.34315 20 0 18.6569 0 17V3C0 1.34315 1.34315 0 3 0H17ZM2 17C2 17.5523 2.44772 18 3 18H17C17.5523 18 18 17.5523 18 17V12H14.9C14.4512 14.2109 12.5435 15.8921 10.2256 15.995L10 16C7.65663 16 5.68979 14.3879 5.14797 12.2123L5.10002 12H2V17ZM17 2H3C2.44772 2 2 2.44772 2 3V10H6C6.51284 10 6.93551 10.386 6.99327 10.8834L7 11C7 12.6569 8.34315 14 10 14C11.5977 14 12.9037 12.7511 12.9949 11.1763L13.0067 10.8834C13.0601 10.4243 13.4243 10.0601 13.8834 10.0067L14 10H18V3C18 2.44772 17.5523 2 17 2Z"
+                    fill="#475569"
+                  />
+                </svg>
+
+                <label class="aside-bar__label text--c-fiord">Forms</label>
+                <span class="bg--persian-pink aside-bar__badge--pd">10</span>
+              </li>
+              <li class="aside-bar__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0ZM16.3207 5.09539L5.09548 16.3207C6.44998 17.3733 8.1518 18 10 18C14.4183 18 18 14.4183 18 10C18 8.15176 17.3732 6.4499 16.3207 5.09539ZM9.00005 2.06189C5.05371 2.55396 2 5.92037 2 10C2 11.8482 2.62674 13.55 3.67927 14.9045L9 9.584L9.00005 2.06189ZM11.001 2.06201L11 7.584L14.9047 3.67941C13.7986 2.81985 12.4609 2.24424 11.001 2.06201Z"
+                    fill="#475569"
+                  />
+                </svg>
+
+                <label class="aside-bar__label text--c-fiord">Charts</label>
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+              <li class="aside-bar__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3 20C1.34315 20 0 18.6569 0 17V3C0 1.34315 1.34315 0 3 0H17C18.6569 0 20 1.34315 20 3V17C20 18.6569 18.6569 20 17 20H3ZM6 11H2V17C2 17.5523 2.44772 18 3 18H6V11ZM12 11H8V18H12V11ZM18 11H14V18H17C17.5523 18 18 17.5523 18 17V11ZM6 2H3C2.44772 2 2 2.44772 2 3V9H6V2ZM12 2H8V9H12V2ZM17 2H14V9H18V3C18 2.44772 17.5523 2 17 2Z"
+                    fill="#475569"
+                  />
+                </svg>
+                <label class="aside-bar__label text--c-fiord">Tables</label>
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+              <li class="aside-bar__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0ZM10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2ZM10 16C12.2091 16 14 14.2091 14 12H6L6.0049 12.1996C6.10892 14.316 7.8578 16 10 16ZM6.5 6C7.32843 6 8 6.67157 8 7.5C8 8.32843 7.32843 9 6.5 9C5.67157 9 5 8.32843 5 7.5C5 6.67157 5.67157 6 6.5 6ZM15 7.5C15 6.67157 14.3284 6 13.5 6C12.6716 6 12 6.67157 12 7.5C12 8.32843 12.6716 9 13.5 9C14.3284 9 15 8.32843 15 7.5Z"
+                    fill="#2563EB"
+                  />
+                </svg>
+
+                <label class="aside-bar__label text--c-fiord">Icons</label>
+                <svg
+                  width="14"
+                  height="6"
+                  viewBox="0 0 14 6"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M14.0003 5.40032C14.0003 5.24671 13.924 5.09311 13.7724 4.9761L7.55011 0.175944C7.246 -0.0586634 6.75444 -0.0586634 6.45033 0.175944L0.228084 4.9761C-0.0760281 5.21071 -0.0760281 5.58992 0.228084 5.82453C0.532197 6.05914 1.02375 6.05914 1.32787 5.82453L7.00022 1.44859L12.6726 5.82453C12.9767 6.05914 13.4682 6.05914 13.7724 5.82453C13.924 5.70753 14.0003 5.55392 14.0003 5.40032Z"
+                    fill="#2563EB"
+                  />
+                </svg>
+                <ul class="icon-list">
+                  <li>
+                    <label class="text--c-fiord">Finance</label>
+                  </li>
+                  <li>
+                    <label class="text--c-fiord">Sass</label>
+                  </li>
+                  <li>
+                    <label class="bd text--c-fiord">Finance</label>
+                    <span
+                      class="bg--shamrock aside-bar__badge aside-bar__badge--pd"
+                      >2</span
+                    >
+                  </li>
+                  <li>
+                    <label class="text--c-fiord">Finance</label>
+                  </li>
+                  <li>
+                    <label class="text--c-fiord">Sass</label>
+                  </li>
+                </ul>
+              </li>
+              <li class="aside-bar__item">
+                <svg
+                  width="18"
+                  height="20"
+                  viewBox="0 0 18 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9 0C13.9706 0 18 3.98572 18 8.90236C18 12.1559 15.2777 15.5958 9.94825 19.3432L9 20L8.4278 19.6051C2.85042 15.7559 0 12.2315 0 8.90236C0 3.98572 4.02944 0 9 0ZM9 1.9783C5.13401 1.9783 2 5.07831 2 8.90236C2 11.3049 4.29672 14.2364 9 17.5818C13.7033 14.2364 16 11.3049 16 8.90236C16 5.07831 12.866 1.9783 9 1.9783ZM9 4C11.2091 4 13 5.79086 13 8C13 10.2091 11.2091 12 9 12C6.79086 12 5 10.2091 5 8C5 5.79086 6.79086 4 9 4ZM9 6C7.89543 6 7 6.89543 7 8C7 9.10457 7.89543 10 9 10C10.1046 10 11 9.10457 11 8C11 6.89543 10.1046 6 9 6Z"
+                    fill="#475569"
+                  />
+                </svg>
+                <label class="aside-bar__label text--c-fiord">Maps</label>
+                <span class="bg--froly aside-bar__badge--pd">10</span>
+              </li>
+            </ul>
+          </div>
+          <div class="extras">
+            <h3>Extras</h3>
+            <ul class="aside-bar__list extras__list">
+              <li class="aside-bar__item extras__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13 0C14.6569 0 16 1.34315 16 3V17C16 18.6569 14.6569 20 13 20H7C5.34315 20 4 18.6569 4 17V3C4 1.34315 5.34315 0 7 0H13ZM1 0C1.55228 0 2 0.447715 2 1V19C2 19.5523 1.55228 20 1 20C0.447715 20 0 19.5523 0 19V1C0 0.447715 0.447715 0 1 0ZM19 0C19.5523 0 20 0.447715 20 1V19C20 19.5523 19.5523 20 19 20C18.4477 20 18 19.5523 18 19V1C18 0.447715 18.4477 0 19 0ZM13 2H7C6.44772 2 6 2.44772 6 3V17C6 17.5523 6.44772 18 7 18H13C13.5523 18 14 17.5523 14 17V3C14 2.44772 13.5523 2 13 2Z"
+                    fill="#475569"
+                  />
+                </svg>
+                <label class="aside-bar__label extras__label text--c-fiord">Layouts</label>
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+              <li class="aside-bar__item extras__item">
+                <svg
+                  width="18"
+                  height="20"
+                  viewBox="0 0 18 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10 0C10.2652 0 10.5196 0.105357 10.7071 0.292893L15.7071 5.29289C15.8946 5.48043 16 5.73478 16 6V7C16 7.55228 15.5523 8 15 8H9C8.48716 8 8.06449 7.61396 8.00673 7.11662L8 7L7.999 2H3C2.44772 2 2 2.44772 2 3V17C2 17.5523 2.44772 18 3 18H5C5.55228 18 6 18.4477 6 19C6 19.5523 5.55228 20 5 20H3C1.34315 20 0 18.6569 0 17V3C0 1.34315 1.34315 0 3 0H10ZM13 10C13.5523 10 14 10.4477 14 11V14H17C17.5523 14 18 14.4477 18 15C18 15.5523 17.5523 16 17 16H14V19C14 19.5523 13.5523 20 13 20C12.4477 20 12 19.5523 12 19V16H9C8.44771 16 8 15.5523 8 15C8 14.4477 8.44771 14 9 14H12V11C12 10.4477 12.4477 10 13 10ZM9.999 2.414L10 6H13.586L9.999 2.414Z"
+                    fill="#475569"
+                  />
+                </svg>
+
+                <label class="aside-bar__label extras__label text--c-fiord"
+                  >Authentication</label
+                >
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+              <li class="aside-bar__item extras__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M16 0C16.585 0 17.0451 0.500026 16.9965 1.08305L16.92 2H19C19.5523 2 20 2.44772 20 3V7C20 9.19905 18.2255 10.9836 16.0303 10.9999C15.5483 12.7807 14.4913 14.3691 13 15.5132L12.999 18H17C17.5523 18 18 18.4477 18 19C18 19.5523 17.5523 20 17 20H3C2.44772 20 2 19.5523 2 19C2 18.4477 2.44772 18 3 18H6.999L7 15.514L6.76695 15.3293C5.40307 14.2089 4.42745 12.6929 3.96903 10.9999C1.84215 10.9832 0.111258 9.30821 0.00515466 7.20485L0 7V3C0 2.48716 0.38604 2.06449 0.883379 2.00673L1 2H3.079L3.00345 1.08305C2.95487 0.500026 3.41496 0 4 0H16ZM14.9132 2H5.0868L5.69712 9.32386C5.86096 11.2899 6.9132 13.0736 8.5547 14.1679C8.8329 14.3534 9 14.6656 9 15V18H11V15C11 14.6724 11.1605 14.3655 11.4296 14.1786L11.6474 14.0276C13.1753 12.923 14.1461 11.2051 14.3029 9.32386L14.9132 2ZM3.246 4H2V7C2 7.98906 2.71794 8.81043 3.66111 8.97141L3.246 4ZM18 7V4H16.753L16.3389 8.97141C17.2821 8.81043 18 7.98906 18 7Z"
+                    fill="#475569"
+                  />
+                </svg>
+
+                <label class="aside-bar__label extras__label text--c-fiord"
+                  >Experiences</label
+                >
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+              <li class="aside-bar__item extras__item">
+                <svg
+                  width="16"
+                  height="20"
+                  viewBox="0 0 16 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10 0C10.2652 0 10.5196 0.105357 10.7071 0.292893L15.7071 5.29289C15.8946 5.48043 16 5.73478 16 6V17C16 18.6569 14.6569 20 13 20H3C1.34315 20 0 18.6569 0 17V3C0 1.34315 1.34315 0 3 0H10ZM7.999 2H3C2.44772 2 2 2.44772 2 3V17C2 17.5523 2.44772 18 3 18H13C13.5523 18 14 17.5523 14 17V8H9C8.48716 8 8.06449 7.61396 8.00673 7.11662L8 7L7.999 2ZM13.586 6L9.999 2.414L10 6H13.586Z"
+                    fill="#475569"
+                  />
+                </svg>
+                <label class="aside-bar__label extras__label text--c-fiord"
+                  >File Manager</label
+                >
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+              <li class="aside-bar__item extras__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.5 17C7.32843 17 8 17.6716 8 18.5C8 19.3284 7.32843 20 6.5 20C5.67157 20 5 19.3284 5 18.5C5 17.6716 5.67157 17 6.5 17ZM15.5 17C16.3284 17 17 17.6716 17 18.5C17 19.3284 16.3284 20 15.5 20C14.6716 20 14 19.3284 14 18.5C14 17.6716 14.6716 17 15.5 17ZM1 0H3C3.4556 0 3.84831 0.30684 3.96506 0.737739L3.98837 0.847943L4.4733 4H19C19.5998 4 20.0549 4.52068 19.9951 5.10035L19.9762 5.21693L18.3242 12.6508C18.0325 13.9637 16.9059 14.9143 15.5779 14.9945L15.3957 15H6.71584C5.29435 15 4.07697 14.0044 3.78265 12.6299L3.75072 12.4562L2.14208 2H1C0.447715 2 0 1.55228 0 1C0 0.487164 0.38604 0.0644928 0.883379 0.00672773L1 0H3H1ZM17.7534 6H4.781L5.72747 12.1521C5.79674 12.6024 6.15973 12.9438 6.60337 12.9937L6.71584 13H15.3957C15.8253 13 16.2021 12.7265 16.3402 12.3285L16.3718 12.2169L17.7534 6Z"
+                    fill="#475569"
+                  />
+                </svg>
+                <label class="aside-bar__label extras__label text--c-fiord">E-Commerce</label>
+                <svg
+                  width="6"
+                  height="14"
+                  viewBox="0 0 6 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.599914 14C0.75352 14 0.907125 13.9238 1.02413 13.7721L5.82429 7.54987C6.0589 7.24576 6.0589 6.7542 5.82429 6.45009L1.02413 0.22784C0.78952 -0.0762722 0.410308 -0.0762722 0.1757 0.22784C-0.0589075 0.531952 -0.0589075 1.02351 0.1757 1.32762L4.55165 6.99998L0.1757 12.6723C-0.0589075 12.9764 -0.0589075 13.468 0.1757 13.7721C0.292704 13.9238 0.446309 14 0.599914 14Z"
+                    fill="#475569"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <div class="content">
+
+          <section>
+            <ul class="profit__list">
+              <li class="profit__item">
+                <div class="profit__content">
+                  <div class="profit__content-first">
+                    <span class="font--wt-600 font--sz-20px">Total profit</span>
+                    <h2 class="text--c-mirage font--wt-600 font--sz-36px">$559.2k</h2>
+                    <a class="font--wt-600" href="#">view all orders</a>
+                  </div>
+                  <div class="profit__content-second">
+                    <span>
+                      <span><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.6129 7.7903L1.70711 7.70711L4 5.415L5.29289 6.70711C5.65338 7.06759 6.22061 7.09532 6.6129 6.7903L6.70711 6.70711L9.5 3.915L10.2929 4.70711C10.8955 5.30968 11.9072 4.92767 11.994 4.11363L12 4L11.9983 0.940615L11.9893 0.85305L11.9643 0.73416L11.9401 0.658334L11.9063 0.576778L11.854 0.479291L11.7871 0.382978L11.7071 0.292859C11.6717 0.257499 11.6343 0.225313 11.5953 0.196335L11.4841 0.124671L11.3713 0.0712255L11.266 0.0358451L11.1485 0.0110178L11.0892 0.00396641L11 0H8C7.14783 0 6.70257 0.985514 7.21677 1.62253L7.29289 1.70711L8.085 2.5L6 4.585L4.70711 3.29289C4.34662 2.93241 3.77939 2.90468 3.3871 3.2097L3.29289 3.29289L0.292893 6.29289C-0.0976311 6.68342 -0.0976311 7.31658 0.292893 7.70711C0.653377 8.06759 1.22061 8.09532 1.6129 7.7903Z" fill="#4ADE80"/>
+                        </svg>
+                        <span class="text--c-mountain-meadow">+16.64%</span>
+                        </span>
+                    </span>
+                    <span class="profit__dollar bg--mountain-meadow">$</span>
+                  </div>
+                </div>
+              </li>
+              <li class="profit__item">
+                <div class="profit__content">
+                  <div class="profit__content-first">
+                    <span class="font--wt-600 font--sz-20px">Total profit</span>
+                    <h2 class="text--c-mirage font--wt-600 font--sz-36px">$559.2k</h2>
+                    <a href="#">view all orders</a>
+                  </div>
+                  <div class="profit__content-second">
+                    <span>
+                      <span><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.6129 7.7903L1.70711 7.70711L4 5.415L5.29289 6.70711C5.65338 7.06759 6.22061 7.09532 6.6129 6.7903L6.70711 6.70711L9.5 3.915L10.2929 4.70711C10.8955 5.30968 11.9072 4.92767 11.994 4.11363L12 4L11.9983 0.940615L11.9893 0.85305L11.9643 0.73416L11.9401 0.658334L11.9063 0.576778L11.854 0.479291L11.7871 0.382978L11.7071 0.292859C11.6717 0.257499 11.6343 0.225313 11.5953 0.196335L11.4841 0.124671L11.3713 0.0712255L11.266 0.0358451L11.1485 0.0110178L11.0892 0.00396641L11 0H8C7.14783 0 6.70257 0.985514 7.21677 1.62253L7.29289 1.70711L8.085 2.5L6 4.585L4.70711 3.29289C4.34662 2.93241 3.77939 2.90468 3.3871 3.2097L3.29289 3.29289L0.292893 6.29289C-0.0976311 6.68342 -0.0976311 7.31658 0.292893 7.70711C0.653377 8.06759 1.22061 8.09532 1.6129 7.7903Z" fill="#4ADE80"/>
+                        </svg>
+                        <span class="text--c-mountain-meadow">+16.64%</span>
+                        </span>
+                    </span>
+                    <span class="profit__dollar bg--mountain-meadow">$</span>
+                  </div>
+                </div>
+              </li>
+              <li class="profit__item">
+                <div class="profit__content">
+                  <div class="profit__content-first">
+                    <span class="font--wt-600 font--sz-20px">Total profit</span>
+                    <h2 class="text--c-mirage font--wt-600 font--sz-36px">$559.2k</h2>
+                    <a href="#">view all orders</a>
+                  </div>
+                  <div class="profit__content-second">
+                    <span>
+                      <span><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.6129 7.7903L1.70711 7.70711L4 5.415L5.29289 6.70711C5.65338 7.06759 6.22061 7.09532 6.6129 6.7903L6.70711 6.70711L9.5 3.915L10.2929 4.70711C10.8955 5.30968 11.9072 4.92767 11.994 4.11363L12 4L11.9983 0.940615L11.9893 0.85305L11.9643 0.73416L11.9401 0.658334L11.9063 0.576778L11.854 0.479291L11.7871 0.382978L11.7071 0.292859C11.6717 0.257499 11.6343 0.225313 11.5953 0.196335L11.4841 0.124671L11.3713 0.0712255L11.266 0.0358451L11.1485 0.0110178L11.0892 0.00396641L11 0H8C7.14783 0 6.70257 0.985514 7.21677 1.62253L7.29289 1.70711L8.085 2.5L6 4.585L4.70711 3.29289C4.34662 2.93241 3.77939 2.90468 3.3871 3.2097L3.29289 3.29289L0.292893 6.29289C-0.0976311 6.68342 -0.0976311 7.31658 0.292893 7.70711C0.653377 8.06759 1.22061 8.09532 1.6129 7.7903Z" fill="#4ADE80"/>
+                        </svg>
+                        <span class="text--c-mountain-meadow">+16.64%</span>
+                        </span>
+                    </span>
+                    <span class="profit__dollar bg--mountain-meadow">$</span>
+                  </div>
+                </div>
+              </li>
+              <li class="profit__item">
+                <div class="profit__content">
+                  <div class="profit__content-first">
+                    <span class="font--wt-600 font--sz-20px">Total profit</span>
+                    <h2 class="text--c-mirage font--wt-600 font--sz-36px">$559.2k</h2>
+                    <a href="#">view all orders</a>
+                  </div>
+                  <div class="profit__content-second">
+                    <span>
+                      <span><svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.6129 7.7903L1.70711 7.70711L4 5.415L5.29289 6.70711C5.65338 7.06759 6.22061 7.09532 6.6129 6.7903L6.70711 6.70711L9.5 3.915L10.2929 4.70711C10.8955 5.30968 11.9072 4.92767 11.994 4.11363L12 4L11.9983 0.940615L11.9893 0.85305L11.9643 0.73416L11.9401 0.658334L11.9063 0.576778L11.854 0.479291L11.7871 0.382978L11.7071 0.292859C11.6717 0.257499 11.6343 0.225313 11.5953 0.196335L11.4841 0.124671L11.3713 0.0712255L11.266 0.0358451L11.1485 0.0110178L11.0892 0.00396641L11 0H8C7.14783 0 6.70257 0.985514 7.21677 1.62253L7.29289 1.70711L8.085 2.5L6 4.585L4.70711 3.29289C4.34662 2.93241 3.77939 2.90468 3.3871 3.2097L3.29289 3.29289L0.292893 6.29289C-0.0976311 6.68342 -0.0976311 7.31658 0.292893 7.70711C0.653377 8.06759 1.22061 8.09532 1.6129 7.7903Z" fill="#4ADE80"/>
+                        </svg>
+                        <span class="text--c-mountain-meadow">+16.64%</span>
+                        </span>
+                    </span>
+                    <span class="profit__dollar bg--mountain-meadow">$</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="stats">
+              <div class="stats__line">
+                <div>
+                  <h2>Market Overview</h2>
+                  <div class="stats__ellipsis">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="stats__circle"></div>
+            </div>
+          </section>
+
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
